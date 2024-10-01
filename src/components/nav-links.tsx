@@ -18,22 +18,17 @@ const links = [
 		href: '/experience',
 		label: 'Experience',
 		style: 'hover:bg-green-500 hover:ring-green-600',
-	},
+	},*/
 	{
 		href: '/projects',
 		label: 'Projects',
 		style: 'hover:bg-yellow-500 hover:ring-yellow-600',
 	},
-	{
+	/*{
 		href: '/resume',
 		label: 'Resume',
 		style: 'hover:bg-violet-500 hover:ring-violet-600',
 	},*/
-	{
-		href: '/diagrams',
-		label: 'Diagrams',
-		style: 'hover:bg-cyan-500 hover:ring-cyan-600',
-	},
 ];
 
 export default function NavLinks() {

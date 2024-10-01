@@ -7,7 +7,7 @@ export default function Education() {
 			<div className="w-3/4 pt-4 grid grid-cols-2 items-center gap-x-10 gap-y-20">
 				<div>
 					<Image
-						src={'/mortarboard.svg'}
+						src={'/images/mortarboard.svg'}
 						alt={'Mortarboard'}
 						width={800}
 						height={800}

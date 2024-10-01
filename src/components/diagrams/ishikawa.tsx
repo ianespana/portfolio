@@ -9,6 +9,7 @@ import { ReactDiagram } from 'gojs-react';
 
 const ishikawaSchema: RJSFSchema = {
 	type: 'object',
+	required: ['problem'],
 	properties: {
 		problem: {
 			type: 'string',
