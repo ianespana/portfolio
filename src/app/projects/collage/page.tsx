@@ -1,7 +1,13 @@
 'use client';
 import React, { useState } from 'react';
 
-function ImageTile({ src, title, description }) {
+interface ImageTitleParams {
+	src: string;
+	title: string;
+	description: string;
+}
+
+function ImageTile({ src, title, description }: ImageTitleParams) {
 	const [showOverlay, setShowOverlay] = useState(false);
 
 	return (
@@ -31,20 +37,17 @@ export default function Collage() {
 		{
 			src: '/images/collage/amor.webp',
 			title: 'Amor',
-			description:
-				'Sentimiento profundo de afecto y conexión con otra persona o cosa',
+			description: 'Sentimiento profundo de afecto y conexión con otra persona o cosa',
 		},
 		{
 			src: '/images/collage/honradez.jpg',
 			title: 'Honradez',
-			description:
-				'Cualidad de ser sincero, justo y veraz en todas las acciones',
+			description: 'Cualidad de ser sincero, justo y veraz en todas las acciones',
 		},
 		{
 			src: '/images/collage/ley.webp',
 			title: 'Ley',
-			description:
-				'Norma o conjunto de normas que regulan la conducta humana en una sociedad.',
+			description: 'Norma o conjunto de normas que regulan la conducta humana en una sociedad.',
 		},
 		{
 			src: '/images/collage/limpieza.webp',
@@ -64,14 +67,12 @@ export default function Collage() {
 		{
 			src: '/images/collage/respeto.jpg',
 			title: 'Respeto',
-			description:
-				'Consideración y aprecio hacia los demás y sus derechos.',
+			description: 'Consideración y aprecio hacia los demás y sus derechos.',
 		},
 		{
 			src: '/images/collage/responsabilidad.jpg',
 			title: 'Responsabilidad',
-			description:
-				'Cualidad de ser consciente de las propias obligaciones y cumplirlas.',
+			description: 'Cualidad de ser consciente de las propias obligaciones y cumplirlas.',
 		},
 		{
 			src: '/images/collage/superacion.webp',
@@ -82,9 +83,7 @@ export default function Collage() {
 
 	return (
 		<div className="container mx-auto px-6 py-8">
-			<h2 className="text-3xl font-bold mb-8 text-center">
-				Collage Interactivo
-			</h2>
+			<h2 className="text-3xl font-bold mb-8 text-center">Collage Interactivo</h2>
 			<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 				{images.map((img, index) => (
 					<ImageTile key={index} {...img} />

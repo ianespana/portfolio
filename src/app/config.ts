@@ -643,6 +643,74 @@ const projects: Project[] = [
 			},
 		],
 	},
+	{
+		name: 'Actividad 11',
+		description: 'Collage del Libro',
+		image: '/images/book-collage/advantages.webp',
+		links: [
+			{
+				name: 'Collage',
+				url: '/projects/book-collage',
+				faClass: faLink,
+			},
+		],
+	},
+	{
+		name: 'Actividad 12',
+		description: 'Tabla Comparativa de Empresarios',
+		links: [
+			{
+				name: 'PDF',
+				url: '/files/actividad-12.pdf',
+				faClass: faFile,
+			},
+		],
+	},
+	{
+		name: 'Actividad 13',
+		description: 'Empresario Ideal',
+		image: '/images/empresario/example.jpg',
+		links: [
+			{
+				name: 'Empresario Ideal',
+				url: '/projects/empresario',
+				faClass: faLink,
+			},
+		],
+	},
+	{
+		name: 'Actividad 14',
+		description: 'Por qué fracasan los países',
+		links: [
+			{
+				name: 'Por qué fracasan los países',
+				url: '/projects/paises',
+				faClass: faLink,
+			},
+		],
+	},
+	{
+		name: 'Actividad 15',
+		description: 'Clean Code',
+		links: [
+			{
+				name: 'Clean Code',
+				url: '/projects/clean-code',
+				faClass: faLink,
+			},
+		],
+	},
+	{
+		name: 'Actividad 16',
+		description: 'Ensayo "Mentes en Acción - Movimientos Sociales"',
+		links: [
+			{
+				name: 'PDF',
+				url: '/files/actividad-16.pdf',
+				faClass: faFile,
+			},
+		],
+	},
 ];
 
 export {
