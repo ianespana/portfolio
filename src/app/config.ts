@@ -18,7 +18,7 @@ import {
 	faPython,
 	faReact,
 } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faFile, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faFile, faLink, faVideo } from '@fortawesome/free-solid-svg-icons';
 import { Skill } from '@/interfaces/skill';
 import { IconDefinition } from '@fortawesome/free-regular-svg-icons';
 import { IconName, IconPrefix } from '@fortawesome/fontawesome-svg-core';
@@ -708,6 +708,50 @@ const projects: Project[] = [
 				name: 'PDF',
 				url: '/files/actividad-16.pdf',
 				faClass: faFile,
+			},
+		],
+	},
+	{
+		name: 'Actividad 17',
+		description: 'IA Propia y poco conocidas',
+		links: [
+			{
+				name: 'Inteligencia Artificial',
+				url: '/projects/inteligencia-artificial',
+				faClass: faLink,
+			},
+		],
+	},
+	{
+		name: 'Actividad 18',
+		description: 'Mega-habilidades',
+		links: [
+			{
+				name: 'Video',
+				url: '/videos/megahabilidades.mp4',
+				faClass: faVideo,
+			},
+		],
+	},
+	{
+		name: 'Actividad 19',
+		description: 'Arquetipos Sistémicos',
+		links: [
+			{
+				name: 'Arquetipos Sistémicos',
+				url: '/projects/arquetipos-sistemicos',
+				faClass: faLink,
+			},
+		],
+	},
+	{
+		name: 'Actividad 20',
+		description: 'Habilidades Directivas',
+		links: [
+			{
+				name: 'Video',
+				url: '/videos/organizacion.mp4',
+				faClass: faVideo,
 			},
 		],
 	},

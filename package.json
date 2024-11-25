@@ -21,15 +21,20 @@
     "@rjsf/mui": "^5.20.1",
     "@rjsf/utils": "^5.20.1",
     "@rjsf/validator-ajv8": "^5.20.1",
+    "axios": "^1.7.7",
     "bootstrap": "4.6",
     "chart.js": "^4.4.4",
+    "dotenv": "^16.4.5",
     "gojs": "^3.0.10",
     "gojs-react": "^1.1.2",
     "next": "14.2.7",
+    "openai": "^4.73.0",
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
-    "react-tabs": "^6.0.2"
+    "react-tabs": "^6.0.2",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
