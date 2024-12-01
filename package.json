@@ -34,7 +34,8 @@
     "react-dom": "^18",
     "react-tabs": "^6.0.2",
     "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@types/node": "^20",
