@@ -771,7 +771,7 @@ const projects: Project[] = [
 		description: 'Lecciones de Liderazgo según Steve Jobs',
 		links: [
 			{
-				name: 'Inteligencia Emocional',
+				name: 'Lecciones de Liderazgo según Steve Jobs',
 				url: '/projects/jobs',
 				faClass: faLink,
 			},
