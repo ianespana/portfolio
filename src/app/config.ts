@@ -755,6 +755,39 @@ const projects: Project[] = [
 			},
 		],
 	},
+	{
+		name: 'Actividad 21',
+		description: 'Inteligencia Emocional',
+		links: [
+			{
+				name: 'Inteligencia Emocional',
+				url: '/projects/inteligencia-emocional',
+				faClass: faLink,
+			},
+		],
+	},
+	{
+		name: 'Actividad 22',
+		description: 'Lecciones de Liderazgo según Steve Jobs',
+		links: [
+			{
+				name: 'Inteligencia Emocional',
+				url: '/projects/jobs',
+				faClass: faLink,
+			},
+		],
+	},
+	{
+		name: 'Actividad 23',
+		description: 'Inteligencia Social',
+		links: [
+			{
+				name: 'Inteligencia Social',
+				url: '/projects/inteligencia-social',
+				faClass: faLink,
+			},
+		],
+	},
 ];
 
 export {
